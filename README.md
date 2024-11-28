@@ -8,6 +8,17 @@ Before you begin, ensure you have the following installed:
 - Java Development Kit (JDK) 17 or later
   - Download from: [Eclipse Temurin JDK 17](https://adoptium.net/temurin/releases/?version=17)
   - Make sure JAVA_HOME is set in your environment variables
+- Gradle (Optional - Project includes Gradle Wrapper)
+  - If you don't have Gradle installed globally, you can use the provided `setup-gradle.ps1` script:
+    ```powershell
+    # Run in PowerShell as Administrator
+    .\setup-gradle.ps1
+    ```
+    This script will:
+    - Download Gradle 8.3
+    - Install it to C:\gradle
+    - Add Gradle to your PATH
+    - Set GRADLE_HOME environment variable
 
 ## Project Setup
 
